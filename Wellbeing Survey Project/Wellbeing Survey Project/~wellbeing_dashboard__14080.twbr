@@ -1,0 +1,2116 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (comined_terms)' inline='true' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='comined_terms' name='excel-direct.0i9z6qt1ohh3ko13pmgus0dsf7pt'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Wellbeing Survey Project/comined_terms.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0i9z6qt1ohh3ko13pmgus0dsf7pt' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M481:no:A1:M481:0' header='yes' outcome='6'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='What grade level are you?' ordinal='1' />
+            <column datatype='integer' name='How often do you feel positive in school?' ordinal='2' />
+            <column datatype='integer' name='How often do you feel supported by your teachers and advisors?' ordinal='3' />
+            <column datatype='integer' name='How often do you feel listened to by your teachers and advisors?' ordinal='4' />
+            <column datatype='integer' name='How often do you feel listened to and supported by your friends?' ordinal='5' />
+            <column datatype='integer' name='How do you feel you are managing the workload?' ordinal='6' />
+            <column datatype='integer' name='To what extent do you feel the workload is making you feel stressed?' ordinal='7' />
+            <column datatype='integer' name='Overall, how do you feel about the first few months of school?' ordinal='8' />
+            <column datatype='string' name='Term' ordinal='9' />
+            <column datatype='string' name='Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?' ordinal='10' />
+            <column datatype='string' name='High School Only' ordinal='11' />
+            <column datatype='string' name='SchoolLevel' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M481:no:A1:M481:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What grade level are you?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[What grade level are you?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>What grade level are you?</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How often do you feel positive in school?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How often do you feel positive in school?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>How often do you feel positive in school?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How often do you feel supported by your teachers and advisors?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How often do you feel supported by your teachers and advisors?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>How often do you feel supported by your teachers and advisors?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How often do you feel listened to by your teachers and advisors?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How often do you feel listened to by your teachers and advisors?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>How often do you feel listened to by your teachers and advisors?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How often do you feel listened to and supported by your friends?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How often do you feel listened to and supported by your friends?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>How often do you feel listened to and supported by your friends?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you feel you are managing the workload?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[How do you feel you are managing the workload?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>How do you feel you are managing the workload?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To what extent do you feel the workload is making you feel stressed?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[To what extent do you feel the workload is making you feel stressed?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>To what extent do you feel the workload is making you feel stressed?</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall, how do you feel about the first few months of school?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Overall, how do you feel about the first few months of school?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Overall, how do you feel about the first few months of school?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Term]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Term</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High School Only</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[High School Only]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>High School Only</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolLevel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SchoolLevel]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SchoolLevel</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='SchoolLevel (with Whole School)' datatype='string' name='[Calculation_990791950362361856]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([SchoolLevel]) THEN &quot;Whole School&quot;&#13;&#10;ELSE [SchoolLevel]&#13;&#10;END' />
+      </column>
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1nhcpwu0zzmavb10tjp3o13cqalb.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/17/2025 04:06:42 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Timestamp</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Timestamp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Timestamp</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>459</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>What grade level are you?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[What grade level are you?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>What grade level are you?</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How often do you feel positive in school?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[How often do you feel positive in school?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How often do you feel positive in school?</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How often do you feel supported by your teachers and advisors?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[How often do you feel supported by your teachers and advisors?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How often do you feel supported by your teachers and advisors?</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How often do you feel listened to by your teachers and advisors?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[How often do you feel listened to by your teachers and advisors?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How often do you feel listened to by your teachers and advisors?</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How often do you feel listened to and supported by your friends?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[How often do you feel listened to and supported by your friends?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How often do you feel listened to and supported by your friends?</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How do you feel you are managing the workload?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[How do you feel you are managing the workload?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How do you feel you are managing the workload?</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>To what extent do you feel the workload is making you feel stressed?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[To what extent do you feel the workload is making you feel stressed?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>To what extent do you feel the workload is making you feel stressed?</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Overall, how do you feel about the first few months of school?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Overall, how do you feel about the first few months of school?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Overall, how do you feel about the first few months of school?</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Term]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>High School Only</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[High School Only]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>High School Only</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolLevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SchoolLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolLevel</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_147F8F82CA3B4E3BAD9577C27EA0019E'>
+            <properties context=''>
+              <relation connection='excel-direct.0i9z6qt1ohh3ko13pmgus0dsf7pt' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:M481:no:A1:M481:0' header='yes' outcome='6'>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='integer' name='What grade level are you?' ordinal='1' />
+                  <column datatype='integer' name='How often do you feel positive in school?' ordinal='2' />
+                  <column datatype='integer' name='How often do you feel supported by your teachers and advisors?' ordinal='3' />
+                  <column datatype='integer' name='How often do you feel listened to by your teachers and advisors?' ordinal='4' />
+                  <column datatype='integer' name='How often do you feel listened to and supported by your friends?' ordinal='5' />
+                  <column datatype='integer' name='How do you feel you are managing the workload?' ordinal='6' />
+                  <column datatype='integer' name='To what extent do you feel the workload is making you feel stressed?' ordinal='7' />
+                  <column datatype='integer' name='Overall, how do you feel about the first few months of school?' ordinal='8' />
+                  <column datatype='string' name='Term' ordinal='9' />
+                  <column datatype='string' name='Middle school only: What could be improved to make the Mindful Moment more useful or engaging for you?' ordinal='10' />
+                  <column datatype='string' name='High School Only' ordinal='11' />
+                  <column datatype='string' name='SchoolLevel' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (ANOVA_long_format)' inline='true' name='federated.0xtcs7t0bmwuch19jj35t14gbpid' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ANOVA_long_format' name='excel-direct.1qqd96m00jd2qk1b6caug0tj82d6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Wellbeing Survey Project/ANOVA_long_format.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1qqd96m00jd2qk1b6caug0tj82d6' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F55:no:A1:F55:0' header='yes' outcome='6'>
+            <column datatype='string' name='Variable' ordinal='0' />
+            <column datatype='string' name='Term' ordinal='1' />
+            <column datatype='real' name='Mean' ordinal='2' />
+            <column datatype='real' name='SD' ordinal='3' />
+            <column datatype='string' name='Significant' ordinal='4' />
+            <column datatype='string' name='SchoolLevel' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F55:no:A1:F55:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variable</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Variable]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Variable</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Term]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Term</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mean</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SD]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Significant</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Significant]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Significant</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolLevel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SchoolLevel]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SchoolLevel</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='School Level' datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1kjb0yc12wt8mh1fbzysi0ocme5d.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/17/2025 04:07:08 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Variable</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variable</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Term]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mean</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mean]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mean</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SD</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Significant</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Significant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Significant</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolLevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SchoolLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolLevel</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_A4B2FD2E1F9B416DB69D629C34CB48C8'>
+            <properties context=''>
+              <relation connection='excel-direct.1qqd96m00jd2qk1b6caug0tj82d6' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:F55:no:A1:F55:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Variable' ordinal='0' />
+                  <column datatype='string' name='Term' ordinal='1' />
+                  <column datatype='real' name='Mean' ordinal='2' />
+                  <column datatype='real' name='SD' ordinal='3' />
+                  <column datatype='string' name='Significant' ordinal='4' />
+                  <column datatype='string' name='SchoolLevel' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Summary_long_format)' inline='true' name='federated.1567eyw1k8znwo10365b71iqt0sx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Summary_long_format' name='excel-direct.07sbc40110275718qc4tt14ygu18'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Wellbeing Survey Project/Summary_long_format.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.07sbc40110275718qc4tt14ygu18' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D55:no:A1:D55:0' header='yes' outcome='6'>
+            <column datatype='string' name='Term' ordinal='0' />
+            <column datatype='string' name='SchoolLevel' ordinal='1' />
+            <column datatype='string' name='Variable' ordinal='2' />
+            <column datatype='real' name='Mean' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D55:no:A1:D55:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Term]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Term</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolLevel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SchoolLevel]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SchoolLevel</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variable</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Variable]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Variable</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mean</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ANOVA Label' datatype='real' name='[Calculation_990791950399164417]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='&quot;F: &quot; + STR(ROUND([F-value], 2)) +&#13;&#10;CHAR(10) + &quot;p: &quot; + STR(ROUND([p-value], 3)) +&#13;&#10;CHAR(10) + &quot;η²: &quot; + STR(ROUND([Effect Size (η²)], 3)) +&#13;&#10;CHAR(10) + IF [Significant] = &quot;Yes&quot; THEN &quot;✔&quot; ELSE &quot;✖&quot; END' />
+      </column>
+      <column caption='School Level' datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_0r6ttj61rzns1u1f3r4u900x3hj5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/17/2025 04:07:12 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Term</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Term]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolLevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SchoolLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolLevel</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Variable</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variable</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mean</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mean]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mean</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_F2B20E0E7AFB4775B0A2852F3AD9DB20'>
+            <properties context=''>
+              <relation connection='excel-direct.07sbc40110275718qc4tt14ygu18' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D55:no:A1:D55:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Term' ordinal='0' />
+                  <column datatype='string' name='SchoolLevel' ordinal='1' />
+                  <column datatype='string' name='Variable' ordinal='2' />
+                  <column datatype='real' name='Mean' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='ANOVA (ANOVA_combined_working)' inline='true' name='federated.1g0gt6h09pt6aa196tyg30rsimqt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ANOVA_combined_working' name='excel-direct.1grndc11ah8lfm1br280b00qchfq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Wellbeing Survey Project/ANOVA_combined_working.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1grndc11ah8lfm1br280b00qchfq' name='ANOVA' table='[ANOVA$]' type='table'>
+          <columns gridOrigin='A1:L19:no:A1:L19:0' header='yes' outcome='2'>
+            <column datatype='string' name='Variable' ordinal='0' />
+            <column datatype='string' name='F-value' ordinal='1' />
+            <column datatype='string' name='p-value' ordinal='2' />
+            <column datatype='string' name='Effect Size (η²)' ordinal='3' />
+            <column datatype='real' name='Term 1 Mean ± SD' ordinal='4' />
+            <column datatype='real' name='Term 1 SD' ordinal='5' />
+            <column datatype='real' name='Term 2 Mean ± SD' ordinal='6' />
+            <column datatype='real' name='Term 2 SD' ordinal='7' />
+            <column datatype='real' name='Term 3 Mean ± SD' ordinal='8' />
+            <column datatype='real' name='Term 2 SD 1' ordinal='9' />
+            <column datatype='string' name='Significant' ordinal='10' />
+            <column datatype='string' name='SchoolLevel' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L19:no:A1:L19:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variable</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Variable]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Variable</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F-value</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F-value]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>F-value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p-value</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[p-value]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>p-value</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effect Size (η²)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Effect Size (η²)]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Effect Size (η²)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 1 Mean ± SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 1 Mean ± SD]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 1 Mean ± SD</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 1 SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 1 SD]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 1 SD</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 2 Mean ± SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 2 Mean ± SD]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 2 Mean ± SD</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 2 SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 2 SD]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 2 SD</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 3 Mean ± SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 3 Mean ± SD]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 3 Mean ± SD</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term 2 SD 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term 2 SD 1]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Term 2 SD 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Significant</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Significant]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>Significant</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolLevel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SchoolLevel]</local-name>
+            <parent-name>[ANOVA]</parent-name>
+            <remote-alias>SchoolLevel</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ANOVA Label' datatype='string' name='[Calculation_990791950402056197]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;F = &quot; + STR(ROUND(FLOAT([F-value]), 2)) +&#13;&#10;CHAR(10) + &quot;p = &quot; + STR(ROUND(FLOAT([p-value]), 3)) +&#13;&#10;CHAR(10) + &quot;η² = &quot; + STR(ROUND(FLOAT([Effect Size (η²)]), 3)) +&#13;&#10;CHAR(10) + IF [Significant] = &quot;Yes&quot; THEN &quot;✔ Significant&quot; ELSE &quot;✖ Not Significant&quot; END' />
+      </column>
+      <column caption='ANOVA test' datatype='string' name='[Calculation_990791950404513798]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='// [F-value rounded]&#13;&#10;ROUND(FLOAT([F-value]), 2)&#13;&#10;// [p-value rounded]&#13;&#10;IF [p-value] &lt; 0.001 THEN &#13;&#10;    &quot;p &lt; 0.001&quot; &#13;&#10;ELSE &#13;&#10;    &quot;p = &quot; + STR(ROUND(FLOAT([p-value]), 3)) &#13;&#10;END' />
+      </column>
+      <column caption='School Level' datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+      <column caption='ANOVA' datatype='table' name='[__tableau_internal_object_id__].[ANOVA_654F80F11A394003ADDD8EDF84E05AED]' role='measure' type='quantitative' />
+      <column caption='P-Value' datatype='string' name='[p-value]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_0trk5zy1itn2c019d6bsi1f5ntcp.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/17/2025 07:03:44 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Variable</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variable</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F-value</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F-value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F-value</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>p-value</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[p-value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>p-value</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Effect Size (η²)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Effect Size (η²)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Effect Size (η²)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 1 Mean ± SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 1 Mean ± SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 1 Mean ± SD</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 1 SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 1 SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 1 SD</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 2 Mean ± SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 2 Mean ± SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 2 Mean ± SD</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 2 SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 2 SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 2 SD</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 3 Mean ± SD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 3 Mean ± SD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 3 Mean ± SD</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term 2 SD 1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Term 2 SD 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term 2 SD 1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ANOVA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Significant</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Significant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Significant</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolLevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SchoolLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolLevel</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ANOVA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ANOVA_654F80F11A394003ADDD8EDF84E05AED]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ANOVA' id='ANOVA_654F80F11A394003ADDD8EDF84E05AED'>
+            <properties context=''>
+              <relation connection='excel-direct.1grndc11ah8lfm1br280b00qchfq' name='ANOVA' table='[ANOVA$]' type='table'>
+                <columns gridOrigin='A1:L19:no:A1:L19:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Variable' ordinal='0' />
+                  <column datatype='string' name='F-value' ordinal='1' />
+                  <column datatype='string' name='p-value' ordinal='2' />
+                  <column datatype='string' name='Effect Size (η²)' ordinal='3' />
+                  <column datatype='real' name='Term 1 Mean ± SD' ordinal='4' />
+                  <column datatype='real' name='Term 1 SD' ordinal='5' />
+                  <column datatype='real' name='Term 2 Mean ± SD' ordinal='6' />
+                  <column datatype='real' name='Term 2 SD' ordinal='7' />
+                  <column datatype='real' name='Term 3 Mean ± SD' ordinal='8' />
+                  <column datatype='real' name='Term 2 SD 1' ordinal='9' />
+                  <column datatype='string' name='Significant' ordinal='10' />
+                  <column datatype='string' name='SchoolLevel' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Positivity WS'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Positivity Whole School</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How often do you feel listened to and supported by your friends?]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[How often do you feel positive in school?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column-instance column='[How often do you feel listened to and supported by your friends?]' derivation='Avg' name='[avg:How often do you feel listened to and supported by your friends?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How often do you feel positive in school?]' derivation='Avg' name='[avg:How often do you feel positive in school?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel positive in school?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to and supported by your friends?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel positive in school?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to and supported by your friends?:qk])</rows>
+        <cols>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]</cols>
+      </table>
+      <simple-id uuid='{7CBF3C30-D72F-49FF-B0EF-CC4089C322D4}' />
+    </worksheet>
+    <worksheet name='Postitivity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How often do you feel listened to and supported by your friends?]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[How often do you feel positive in school?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column-instance column='[How often do you feel listened to and supported by your friends?]' derivation='Avg' name='[avg:How often do you feel listened to and supported by your friends?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How often do you feel positive in school?]' derivation='Avg' name='[avg:How often do you feel positive in school?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SchoolLevel]' derivation='None' name='[none:SchoolLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SchoolLevel:nk]' />
+              <groupfilter function='member' level='[none:SchoolLevel:nk]' member='&quot;Other&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel positive in school?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to and supported by your friends?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel positive in school?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to and supported by your friends?:qk])</rows>
+        <cols>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk] / [federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk])</cols>
+      </table>
+      <simple-id uuid='{094E523F-14C3-440E-9DEA-339EBDA05A19}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>ANOVA </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ANOVA (ANOVA_combined_working)' name='federated.1g0gt6h09pt6aa196tyg30rsimqt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g0gt6h09pt6aa196tyg30rsimqt'>
+            <column caption='ANOVA Label' datatype='string' name='[Calculation_990791950402056197]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;F = &quot; + STR(ROUND(FLOAT([F-value]), 2)) +&#13;&#10;CHAR(10) + &quot;p = &quot; + STR(ROUND(FLOAT([p-value]), 3)) +&#13;&#10;CHAR(10) + &quot;η² = &quot; + STR(ROUND(FLOAT([Effect Size (η²)]), 3)) +&#13;&#10;CHAR(10) + IF [Significant] = &quot;Yes&quot; THEN &quot;✔ Significant&quot; ELSE &quot;✖ Not Significant&quot; END' />
+            </column>
+            <column datatype='string' name='[Effect Size (η²)]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F-value]' role='dimension' type='nominal' />
+            <column caption='School Level' datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Significant]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Variable]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_990791950402056197]' derivation='None' name='[none:Calculation_990791950402056197:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SchoolLevel]' derivation='None' name='[none:SchoolLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Variable]' derivation='None' name='[none:Variable:nk]' pivot='key' type='nominal' />
+            <column caption='P-Value' datatype='string' name='[p-value]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:Variable:nk]' value='93' />
+            <format attr='width' field='[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:SchoolLevel:nk]' value='258' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:Calculation_990791950402056197:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:Variable:nk]</rows>
+        <cols>[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:SchoolLevel:nk]</cols>
+      </table>
+      <simple-id uuid='{620121EF-82CB-40AD-BC28-724C53688766}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ANOVA (ANOVA_combined_working)' name='federated.1g0gt6h09pt6aa196tyg30rsimqt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g0gt6h09pt6aa196tyg30rsimqt'>
+            <column caption='ANOVA test' datatype='string' name='[Calculation_990791950404513798]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='// [F-value rounded]&#13;&#10;ROUND(FLOAT([F-value]), 2)&#13;&#10;// [p-value rounded]&#13;&#10;IF [p-value] &lt; 0.001 THEN &#13;&#10;    &quot;p &lt; 0.001&quot; &#13;&#10;ELSE &#13;&#10;    &quot;p = &quot; + STR(ROUND(FLOAT([p-value]), 3)) &#13;&#10;END' />
+            </column>
+            <column caption='School Level' datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Variable]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_990791950404513798]' derivation='None' name='[none:Calculation_990791950404513798:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SchoolLevel]' derivation='None' name='[none:SchoolLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Variable]' derivation='None' name='[none:Variable:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:Calculation_990791950404513798:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:Variable:nk]</rows>
+        <cols>[federated.1g0gt6h09pt6aa196tyg30rsimqt].[none:SchoolLevel:nk]</cols>
+      </table>
+      <simple-id uuid='{8251291A-8B8C-473A-BAC0-94BF1FBF3A30}' />
+    </worksheet>
+    <worksheet name='Teach Support WS'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Teacher Support Whole School</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How often do you feel listened to by your teachers and advisors?]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[How often do you feel supported by your teachers and advisors?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column-instance column='[How often do you feel listened to by your teachers and advisors?]' derivation='Avg' name='[avg:How often do you feel listened to by your teachers and advisors?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How often do you feel supported by your teachers and advisors?]' derivation='Avg' name='[avg:How often do you feel supported by your teachers and advisors?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to by your teachers and advisors?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel supported by your teachers and advisors?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to by your teachers and advisors?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel supported by your teachers and advisors?:qk])</rows>
+        <cols>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]</cols>
+      </table>
+      <simple-id uuid='{BFF9DB21-D6E7-4343-822E-4E328DE951DB}' />
+    </worksheet>
+    <worksheet name='Teacher Support MS/HS'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How often do you feel listened to by your teachers and advisors?]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[How often do you feel supported by your teachers and advisors?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column-instance column='[How often do you feel listened to by your teachers and advisors?]' derivation='Avg' name='[avg:How often do you feel listened to by your teachers and advisors?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How often do you feel supported by your teachers and advisors?]' derivation='Avg' name='[avg:How often do you feel supported by your teachers and advisors?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SchoolLevel]' derivation='None' name='[none:SchoolLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SchoolLevel:nk]' />
+              <groupfilter function='member' level='[none:SchoolLevel:nk]' member='&quot;Other&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to by your teachers and advisors?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel supported by your teachers and advisors?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel listened to by your teachers and advisors?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How often do you feel supported by your teachers and advisors?:qk])</rows>
+        <cols>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk] / [federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk])</cols>
+      </table>
+      <simple-id uuid='{EB9756EC-D003-4EEC-AC0D-A380BF0E4B8C}' />
+    </worksheet>
+    <worksheet name='Workload MS/HS'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Workload: Middle School and High School
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How do you feel you are managing the workload?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SchoolLevel]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[To what extent do you feel the workload is making you feel stressed?]' role='measure' type='quantitative' />
+            <column-instance column='[How do you feel you are managing the workload?]' derivation='Avg' name='[avg:How do you feel you are managing the workload?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[To what extent do you feel the workload is making you feel stressed?]' derivation='Avg' name='[avg:To what extent do you feel the workload is making you feel stressed?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SchoolLevel]' derivation='None' name='[none:SchoolLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SchoolLevel:nk]' />
+              <groupfilter function='member' level='[none:SchoolLevel:nk]' member='&quot;Other&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How do you feel you are managing the workload?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:To what extent do you feel the workload is making you feel stressed?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How do you feel you are managing the workload?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:To what extent do you feel the workload is making you feel stressed?:qk])</rows>
+        <cols>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:SchoolLevel:nk] / [federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk])</cols>
+      </table>
+      <simple-id uuid='{90D2DC4B-215B-44BF-9134-CC053C40D800}' />
+    </worksheet>
+    <worksheet name='Workload WS'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Whole School workload</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (comined_terms)' name='federated.0ztj5eu0q0oqti11x714r05cy1l0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztj5eu0q0oqti11x714r05cy1l0'>
+            <column datatype='integer' name='[How do you feel you are managing the workload?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Term]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[To what extent do you feel the workload is making you feel stressed?]' role='measure' type='quantitative' />
+            <column-instance column='[How do you feel you are managing the workload?]' derivation='Avg' name='[avg:How do you feel you are managing the workload?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[To what extent do you feel the workload is making you feel stressed?]' derivation='Avg' name='[avg:To what extent do you feel the workload is making you feel stressed?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Term]' derivation='None' name='[none:Term:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How do you feel you are managing the workload?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:To what extent do you feel the workload is making you feel stressed?:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:How do you feel you are managing the workload?:qk] + [federated.0ztj5eu0q0oqti11x714r05cy1l0].[avg:To what extent do you feel the workload is making you feel stressed?:qk])</rows>
+        <cols>[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]</cols>
+      </table>
+      <simple-id uuid='{E9238876-2CE2-4DC9-9CD3-B4C01CBE529C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4219D64A-CB18-4215-8E43-F2A5473AE725}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{404F76AC-02CD-48FA-828A-7A321F9B4D0B}' />
+    </window>
+    <window class='worksheet' name='Workload MS/HS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C523DC0A-1C0E-416C-9096-58322945B3C3}' />
+    </window>
+    <window class='worksheet' name='Workload WS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DBC74A8D-1174-47FD-83A6-E66EE5C5D543}' />
+    </window>
+    <window class='worksheet' name='Teacher Support MS/HS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{37C809C1-035A-4529-8A61-DF52DEE1DFCD}' />
+    </window>
+    <window class='worksheet' name='Teach Support WS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D2DB8F3B-42FD-4422-A74B-A64F83A38C47}' />
+    </window>
+    <window class='worksheet' name='Postitivity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B63DC48-306B-405F-B9D2-CAEEF84A05AD}' />
+    </window>
+    <window class='worksheet' name='Positivity WS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztj5eu0q0oqti11x714r05cy1l0].[none:Term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{90CDA6A0-6A79-4D27-8E34-7870D68B5070}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9418ACC5-3DCB-4BA6-8165-7345FBD3EC8B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7376EE49-8308-468F-9857-9DBA50D745DE}' />
+    </window>
+  </windows>
+</workbook>
